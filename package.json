@@ -1,0 +1,33 @@
+{
+  "name": "shudan-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel public/index.html",
+    "build": "parcel build public/index.html --public-url ./",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtkelm2/shudan-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jtkelm2/shudan-demo/issues"
+  },
+  "homepage": "https://github.com/jtkelm2/shudan-demo#readme",
+  "dependencies": {
+    "@sabaki/shudan": "^1.7.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "parcel-bundler": "^1.12.5"
+  }
+}
